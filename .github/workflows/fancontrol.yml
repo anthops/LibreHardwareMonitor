@@ -27,5 +27,5 @@ jobs:
           bin/Release/x64/net10.0/LibreHardwareMonitorLib.dll
           --target $env:GITHUB_SHA
           --title "FanControl build ${{ github.run_number }}"
-          --notes "LibreHardwareMonitorLib (net10.0) built from $env:GITHUB_SHA for FanControl."
+          --notes "LibreHardwareMonitorLib (net10.0) built from $env:GITHUB_SHA for FanControl V285."
           --prerelease
